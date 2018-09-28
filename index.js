@@ -1,6 +1,7 @@
-function takeANumber(line, name){
-  line.push(name)
-  return `Welcome, ${name}. You are number ${line.length} in line.`
+function takeANumber(line){
+  var number = 0
+  line.push(number)
+  return `Welcome, ${line.length}. You are number ${line.length} in line.`
 }
 
 function nowServing(deliLine){
