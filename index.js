@@ -1,5 +1,5 @@
+var number = 0
 function takeANumber(line){
-  var number = 0
   line.push(number++)
   return `Welcome, ${line.length}. You are number ${line.length} in line.`
 }
